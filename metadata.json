@@ -1,0 +1,8 @@
+{
+  "name": "Hireprep AI -- latest",
+  "description": "A next-generation multimodal interview coach using AI avatars, real-time analysis, and behavioral intelligence.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

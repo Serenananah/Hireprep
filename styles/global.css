@@ -1,0 +1,9 @@
+@keyframes hueFlow {
+  0% { filter: hue-rotate(0deg) brightness(1.1) contrast(1.1); }
+  50% { filter: hue-rotate(8deg) brightness(1.2) contrast(1.15); }
+  100% { filter: hue-rotate(0deg) brightness(1.1) contrast(1.1); }
+}
+
+.animate-hue {
+  animation: hueFlow 12s ease-in-out infinite;
+}
